@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+    justify-content: center;
+}
+.img-item{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.bigImg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.381);
+}
+
